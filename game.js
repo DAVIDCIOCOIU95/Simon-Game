@@ -38,7 +38,7 @@ $(".btn").on("click", function () {
   var userChosenColour = $(this).attr("id");
 });
 
-$(document).on("keypress", function () {
+$(document).on("click", function () {
   var randomChosenColour = buttonColours[nextSquence()];
   gamePattern.push(randomChosenColour);
 
